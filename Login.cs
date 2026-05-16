@@ -31,14 +31,9 @@ namespace JuegoTablero
                     Console.ReadKey();
                 }
 
-            } while (
-                leerusuario != usuario ||
-                leercontraseña != Contraseña
-            );
+            } while (leerusuario != usuario || leercontraseña != Contraseña);
 
-            Console.WriteLine(
-                "Acceso permitido"
-            );
+            Console.WriteLine("Acceso permitido");
 
             Console.ReadKey();
         }
